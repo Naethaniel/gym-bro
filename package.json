@@ -9,7 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "sim": "ionic capacitor run ios --target 4129D9F2-F43B-441F-989C-FD598B02A8D0 --livereload"
   },
   "private": true,
   "dependencies": {
@@ -19,7 +20,14 @@
     "@angular/platform-browser": "~11.2.0",
     "@angular/platform-browser-dynamic": "~11.2.0",
     "@angular/router": "~11.2.0",
+    "@capacitor/app": "1.0.0",
+    "@capacitor/core": "3.0.0",
+    "@capacitor/haptics": "1.0.0",
+    "@capacitor/ios": "3.0.0",
+    "@capacitor/keyboard": "1.0.0",
+    "@ionic-native/sqlite": "^5.33.1",
     "@ionic/angular": "^5.5.2",
+    "cordova-sqlite-storage": "^6.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
@@ -30,6 +38,7 @@
     "@angular/compiler": "~11.2.0",
     "@angular/compiler-cli": "~11.2.0",
     "@angular/language-service": "~11.2.0",
+    "@capacitor/cli": "3.0.0",
     "@ionic/angular-toolkit": "^3.1.1",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
@@ -37,7 +46,7 @@
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
-    "karma": "~5.2.0",
+    "karma": "^6.3.3",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.0.3",
     "karma-coverage-istanbul-reporter": "~3.0.2",
