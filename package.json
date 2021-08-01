@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "sim": "ionic capacitor run ios --target 4129D9F2-F43B-441F-989C-FD598B02A8D0 --livereload"
+    "sim": "ionic capacitor run ios --target 4129D9F2-F43B-441F-989C-FD598B02A8D0 -l --external"
   },
   "private": true,
   "dependencies": {
@@ -25,7 +25,7 @@
     "@capacitor/haptics": "1.0.0",
     "@capacitor/ios": "3.0.0",
     "@capacitor/keyboard": "1.0.0",
-    "@ionic-native/sqlite": "^5.33.1",
+    "@ionic-native/sqlite": "^5.34.0",
     "@ionic/angular": "^5.5.2",
     "cordova-sqlite-storage": "^6.0.0",
     "rxjs": "~6.6.0",
